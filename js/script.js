@@ -4,7 +4,36 @@ var add = function(number1, number2) {
 
 var number1 = parseInt(prompt("Enter a number: "));
 var number2 = parseInt(prompt("Enter another number: "));
-alert(number1);
-alert(number2);
+var result1 = add(number1, number2);
 
-alert(add(number1, number2));
+alert(result1);
+
+var subtract = function(number3, number4) {
+  return number3 -number4;
+}
+
+var number3 = parseInt(prompt("Enter the third number: "))
+var number4 = parseInt(prompt("Enter the fourth number: "))
+
+var result2 = subtract(number3, number4);
+alert(result2);
+
+var multiply = function(number5, number6) {
+  return number5 * number6;
+}
+
+var number5 = parseInt(prompt("Enter the fifth number: "))
+var number6 = parseInt(prompt("Enter the sixth number: "))
+
+var result3 = multiply(number5, number6);
+alert(result3);
+
+var divide = function(number7, number8) {
+  return number7 / number8
+}
+
+var number7 = parseInt(prompt("Enter the third number: "))
+var number8 = parseInt(prompt("Enter the fourth number: "))
+
+var result4 = divide(number7, number8);
+alert(result4);
